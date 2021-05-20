@@ -1,4 +1,7 @@
 @import "scrolltotop.scss";
+@import "_variables.scss";
+@import "header.scss";
+@import "main.scss";
 @import "burger.scss";
 html {
     line-height: 1.15;
@@ -9,6 +12,7 @@ html {
 
 body {
     margin: 0;
+    background-color: $bg;
 }
 
 main {

@@ -79,7 +79,7 @@
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    background: $black;
+    background: $bg;
     border-radius: 10px;
     content: '';
     height: 2px;
@@ -104,7 +104,7 @@
 
 .nav-toggle.expanded .nav-toggle-bar::after,
 .nav-toggle.expanded .nav-toggle-bar::before {
-    background: $black;
+    background: $bg;
     margin-top: 0;
 }
 
