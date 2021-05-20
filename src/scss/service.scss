@@ -90,3 +90,36 @@ label:after {
     height: 54px;
     border-color: black;
 }
+
+.service__cards-wrapper {
+    display: flex;
+    flex-basis: 33.33%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service__card {
+    box-sizing: border-box;
+    width: 320px;
+    margin: 30px;
+    padding: 20px;
+    background: $white;
+    border-radius: 15px;
+    box-shadow: 0 3px 2.3px rgba(0, 0, 0, 0.019), 0 6.5px 5.4px rgba(0, 0, 0, 0.029), 0 10.9px 9.9px rgba(0, 0, 0, 0.034), 0 17.5px 17.5px rgba(0, 0, 0, 0.036), 0 30.3px 32.6px rgba(0, 0, 0, 0.041), 0 74px 80px rgba(0, 0, 0, 0.07);
+    & h2 {
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    & ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    & p {
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
