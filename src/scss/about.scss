@@ -1,0 +1,56 @@
+.about {
+    width: 100%;
+    max-width: 1384px;
+    display: block;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.about__subwrapper {
+    width: 100%;
+    max-width: 1384px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.about__subtitle {
+    width: 100%;
+    max-width: 900px;
+}
+
+.about__button {
+    width: 280px;
+    height: 50px;
+    background: $blue;
+    color: $white;
+    border: none;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.about__advantages-card {
+    width: 200px;
+}
+
+.about__advantages-wrapper {
+    width: 100%;
+    max-width: 1384px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about__advantages-img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.about__advantages-text {
+    width: 200px;
+    text-align: center;
+}
