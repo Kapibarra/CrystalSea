@@ -5,3 +5,10 @@
     justify-content: space-between;
     margin: 0 auto;
 }
+
+.header__logo {
+    height: 150px;
+    & img {
+        height: 150px;
+    }
+}

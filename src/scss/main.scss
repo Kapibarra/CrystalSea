@@ -6,7 +6,10 @@
     margin: 0 auto;
 }
 
-.main__image {}
+.main__image {
+    width: unset;
+    height: unset;
+}
 
 .main__button {
     width: 280px;

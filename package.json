@@ -5,6 +5,7 @@
     "main": "webpack.config.js",
     "dependencies": {
         "@babel/polyfill": "^7.12.1",
+        "bootstrap": "^3.4.1",
         "inputmask": "^5.0.5",
         "just-validate": "^1.5.0",
         "lightgallery.js": "^1.4.0",
