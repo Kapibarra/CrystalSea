@@ -1,0 +1,40 @@
+{
+    "globals": {
+        "$": true
+      },
+    "parser": "babel-eslint",
+    "env": {
+        "es6": true,
+        "browser":true,
+        "node":true,
+        "jquery": true
+    },
+    "rules": {
+"no-console": "off",
+"semi":"off",
+"arrow-parents": "off",
+"comma-dengle": "off",
+"linebreak-style" : "off",
+"object-curly-spacing": "off",
+"quotes":"off",
+"indent":"off",
+"require-jsdoc":"off",
+"eol-last":"off",
+"operator-linebreak": "off",
+"no-trailing-spaces": "off",
+"func-call-spacing" : "off",
+"max-len": "off",
+"no-invalid-this": 0,
+"new-cap": "off",
+"brace-style":0,
+"space-before-blocks":0,
+"block-spacing":0,
+"space-before-function-paren":0,
+"no-tabs": 0
+
+
+
+
+    },
+    "extends": ["eslint:recommended", "google"]
+}
