@@ -1,0 +1,15 @@
+.contacts {
+    width: 100%;
+    max-width: 1384px;
+    height: 700px;
+    margin: 0 auto;
+    background: url(../../src/img/contact1.png) no-repeat;
+    background-position: bottom right;
+}
+
+.contacts__items-wrapper {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
