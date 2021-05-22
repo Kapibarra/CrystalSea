@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    max-width: 1384px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer__logo {
+    height: 150px;
+    & img {
+        height: 150px;
+    }
+}
