@@ -1,1 +1,21 @@
-.gallery {}
+.gallery {
+    width: 100%;
+    max-width: 1384px;
+    margin: 0 auto;
+}
+
+.gallery__img-wrapper {
+    width: 100%;
+    max-width: 1384px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.gallery__img {
+    width: 400px;
+    height: 200px;
+    margin: 25px;
+}
