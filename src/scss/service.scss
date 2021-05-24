@@ -157,3 +157,59 @@ label:after {
     line-height: 24px;
     font-weight: 300;
 }
+
+.animation {
+    animation-name: move;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+.a1 {
+    animation-delay: 0.5s;
+}
+
+.a2 {
+    animation-delay: 0.6s;
+}
+
+.a3 {
+    animation-delay: 0.7s;
+}
+
+.a4 {
+    animation-delay: 0.8s;
+}
+
+.a5 {
+    animation-delay: 0.9s;
+}
+
+.a6 {
+    animation-delay: 1s;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+@keyframes left {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    100% {
+        opacity: 1;
+        padding: 5px;
+        width: 440px;
+    }
+}
