@@ -4,6 +4,13 @@
     display: block;
     justify-content: space-between;
     margin: 0 auto;
+    margin-top: 100px;
+}
+
+.about__title {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 62px;
 }
 
 .about__subwrapper {
@@ -12,14 +19,24 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.about__small-title {
+    font-size: $smalltext;
+    font-weight: 300;
 }
 
 .about__subtitle {
     width: 100%;
     max-width: 900px;
+    font-size: $subtitle;
+    font-weight: 300;
+    line-height: 36px;
 }
 
 .about__button {
+    margin-top: 100px;
     width: 280px;
     height: 50px;
     background: $blue;
