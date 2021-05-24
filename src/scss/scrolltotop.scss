@@ -13,7 +13,7 @@
     padding: .25em;
     width: 40px;
     height: 40px;
-    background-color: #f3f3f3;
+    background-color: #EDF2F7;
     &.show {
         visibility: visible;
         opacity: 1;
@@ -28,7 +28,7 @@
         height: 12px;
     }
     &:hover {
-        background-color: #E8E8E8;
+        background-color: #EDF2F7;
         svg {
             fill: #000000;
         }
@@ -53,13 +53,13 @@
         left: 5px;
         z-index: 100000; // Above WP toolbar
         clip-path: none;
-        background-color: #eee;
+        background-color: #EDF2F7;
         padding: 15px 23px 14px;
         width: auto;
         height: auto;
         text-decoration: none;
         line-height: normal;
-        color: #444;
+        color: #EDF2F7;
         font-size: 1em;
         clip: auto !important;
     }
