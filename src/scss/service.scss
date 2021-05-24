@@ -12,11 +12,23 @@
     margin: 0 auto;
 }
 
-.service__smalltitle {}
+.service__smalltitle {
+    font-size: $smalltext;
+    font-weight: 300;
+    line-height: 26px;
+}
 
-.service__subtitle {}
+.service__subtitle {
+    font-size: $subtitle;
+    font-weight: 300;
+    line-height: 26px;
+}
 
-.service__title {}
+.service__title {
+    font-size: $title;
+    font-weight: 300;
+    line-height: 62px;
+}
 
 .service__toggle {
     margin-top: 50px;
@@ -30,7 +42,11 @@
 }
 
 .service__toggle-title {
-    width: 250px;
+    width: 300px;
+    font-size: $title;
+    font-weight: 300;
+    margin-top: 5px;
+    text-align: center;
 }
 
 #toggle_checkbox {
@@ -110,16 +126,28 @@ label:after {
     & h2 {
         width: 200px;
         margin: 0 auto;
+        font-size: $subtitle;
+        line-height: 32px;
+        font-weight: 300;
         text-align: center;
+        margin-bottom: 15px;
     }
     & ul {
         list-style: none;
         text-align: center;
         padding: 0;
+        & li {
+            font-size: $text;
+            line-height: 32px;
+            font-weight: 500;
+        }
     }
     & p {
         width: 200px;
         margin: 0 auto;
         text-align: center;
+        font-size: $smalltext;
+        line-height: 24px;
+        font-weight: 300;
     }
 }
