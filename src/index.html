@@ -122,7 +122,7 @@
             <div class="service__toggle-wrapper">
                 <h1 class="service__toggle-title">Москва</h1>
                 <div class="service__toggle">
-                    <input type="checkbox" id="toggle_checkbox" onclick="myFunction()">
+                    <input type="checkbox" id="toggle_checkbox">
                     <label for="toggle_checkbox"></label>
                 </div>
                 <h1 class="service__toggle-title">Санкт петербург</h1>
@@ -363,20 +363,7 @@
         </div>
 
 
-        <script>
-            function myFunction() {
-                var checkBox = document.getElementById("toggle_checkbox");
-                var text1 = document.getElementById("text1");
-                var text2 = document.getElementById("text2");
-                if (checkBox.checked == true) {
-                    text2.style.display = "block";
-                    text1.style.display = "none";
-                } else {
-                    text1.style.display = "block";
-                    text2.style.display = "none";
-                }
-            }
-        </script>
+
 
 </body>
 

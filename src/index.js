@@ -1,16 +1,6 @@
 import "./scss/index.scss";
 
-/* TABS */
-function myFunction() {
- const checkBox = document.getElementById("toggle_checkbox");
- const text = document.getElementById("service__cards-wrapper");
-  if (checkBox.checked == true){
-    text.style.display = "block";
-  } else {
-     text.style.display = "none";
-  }
-}
-export default myFunction()
+
 /* SCROLL TO TOP BTN */
 const scrollToTopButton = document.getElementById("js-top");
 const scrollFunc = () => {
@@ -68,3 +58,18 @@ window.addEventListener("scroll", burgerButtonToggle);
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
+/* TABS */
+function tabsChange() {
+  const checkBox = document.getElementById("toggle_checkbox");
+  const text1 = document.getElementById("text1");
+  const text2 = document.getElementById("text2");
+  if (checkBox.checked == true) {
+      text2.style.display = "block";
+      text1.style.display = "none";
+  } else {
+      text1.style.display = "block";
+      text2.style.display = "none";
+  }
+}
+
+document.getElementById("toggle_checkbox").addEventListener("click", tabsChange)
