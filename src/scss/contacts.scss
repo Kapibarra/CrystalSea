@@ -5,6 +5,18 @@
     margin: 0 auto;
     background: url(../../src/img/contact1.png) no-repeat;
     background-position: bottom right;
+    & h1 {
+        font-size: $title;
+        font-weight: 300;
+        line-height: 52px;
+        margin-bottom: 15px;
+    }
+    & h2 {
+        font-size: $smalltext;
+        font-weight: 300;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
 }
 
 .contacts__items-wrapper {
@@ -12,4 +24,43 @@
     max-width: 600px;
     display: flex;
     justify-content: space-between;
+}
+
+.form {
+    margin-top: 100px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form>p {
+    text-align: right;
+}
+
+.form>p>a {
+    color: #000;
+    font-size: 14px;
+}
+
+.form-field {
+    height: 46px;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+    transition: .2s;
+    margin-bottom: 20px;
+}
+
+.form-field:focus {
+    border-color: #0f7ef1;
+}
+
+.form>button {
+    padding: 12px 10px;
+    border: 0;
+    background: linear-gradient(to right, #ea8478 0%, #476798 100%);
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #fff;
 }

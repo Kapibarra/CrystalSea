@@ -36,12 +36,17 @@
 }
 
 .about__button {
-    margin-top: 100px;
     width: 280px;
     height: 50px;
     background: $blue;
     color: $white;
     border: none;
+    padding: 12px 10px;
+    border: 0;
+    background: linear-gradient(to right, #ea8478 0%, #476798 100%);
+    border-radius: 3px;
+    margin-top: 100px;
+    color: #fff;
     &:hover {
         cursor: pointer;
     }

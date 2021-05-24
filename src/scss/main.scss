@@ -15,8 +15,12 @@
 .main__button {
     width: 280px;
     height: 50px;
-    background: $blue;
-    color: $white;
+    padding: 12px 10px;
+    border: 0;
+    background: linear-gradient(to right, #ea8478 0%, #476798 100%);
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #fff;
     border: none;
     &:hover {
         cursor: pointer;
