@@ -12,3 +12,28 @@
         height: 150px;
     }
 }
+
+.header__nav {
+    padding-top: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-item {
+    font-size: 18px;
+    font-weight: 500;
+    color: $black;
+    transition: all 0.3s;
+    &:hover {
+        transition: all 0.3s;
+        color: $highlight;
+    }
+}
+
+.header__contacts {
+    padding-top: 50px;
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+}
