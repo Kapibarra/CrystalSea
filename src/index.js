@@ -1,5 +1,6 @@
 import "./scss/index.scss";
 
+/* TABS */
 
 /* SCROLL TO TOP BTN */
 const scrollToTopButton = document.getElementById("js-top");

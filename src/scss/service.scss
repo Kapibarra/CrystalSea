@@ -51,14 +51,10 @@
 }
 
 #toggle_checkbox {
-    display: none;
+    display: block;
 }
 
 label {
-    // position: absolute;
-    // top: 50%;
-    // right: 0;
-    // left: 0;
     display: block;
     width: 140px;
     height: 70px;
@@ -157,4 +153,8 @@ label:after {
     font-size: $smalltext;
     line-height: 24px;
     font-weight: 300;
+}
+
+.saintp {
+    display: none;
 }
