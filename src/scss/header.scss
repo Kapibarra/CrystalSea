@@ -28,6 +28,7 @@
     &:hover {
         transition: all 0.3s;
         color: $highlight;
+        transform: scale(1.05);
     }
 }
 
@@ -36,4 +37,13 @@
     width: 300px;
     justify-content: space-between;
     display: flex;
+}
+
+.header__contacts-item {
+    color: $black;
+    &:hover {
+        transition: all 0.3s;
+        color: $highlight;
+        text-decoration: none;
+    }
 }
