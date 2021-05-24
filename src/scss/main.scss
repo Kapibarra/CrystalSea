@@ -22,6 +22,9 @@
     margin-top: 10px;
     color: #fff;
     border: none;
+    font-size: $text;
+    line-height: 32px;
+    font-weight: 500;
     &:hover {
         cursor: pointer;
     }
