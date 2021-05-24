@@ -222,3 +222,10 @@ template {
 [hidden] {
     display: none;
 }
+
+@media screen and (max-width: 1280px) {
+    .page {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+}

@@ -213,3 +213,73 @@ label:after {
         width: 440px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    label {
+        display: block;
+        width: 140px;
+        height: 70px;
+        margin: 0 auto;
+        margin-top: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    label:before {
+        top: 5px;
+        left: 34px;
+        width: 25px;
+        height: 25px;
+        border: 3px solid rgb(0, 0, 0);
+    }
+    label:after {
+        top: 0;
+        right: 40px;
+        width: 70px;
+        height: 35px;
+        border: 3px solid #143240;
+    }
+    label:before,
+    label:after {
+        content: "";
+        position: absolute;
+        border-radius: 25px;
+        box-sizing: border-box;
+        transition: 0.5s ease top, 0.5s ease left, 0.5s ease right, 0.5s ease width, 0.5s ease height, 0.5s ease border-color;
+    }
+    #toggle_checkbox:checked+label:before {
+        top: 0;
+        left: 40px;
+        width: 70px;
+        height: 35px;
+        border-color: #143240;
+    }
+    #toggle_checkbox:checked+label:after {
+        top: 5px;
+        right: 34px;
+        width: 25px;
+        height: 25px;
+        border-color: black;
+    }
+    .service__toggle-wrapper {
+        width: 400px;
+    }
+    .service__img {
+        display: none;
+    }
+    .msk {
+        padding-top: 25px !important;
+    }
+    .service__toggle-title {
+        padding-top: 10px;
+        width: 150px;
+        font-size: $subtitle;
+    }
+    .service__cards-wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .service__card {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}

@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 1384px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .gallery__title {
@@ -70,4 +71,15 @@
 .box:hover>img {
     width: 100%;
     // height: 90%;
+}
+
+@media screen and (max-width: 1280px) {
+    #text1 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #text2 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
