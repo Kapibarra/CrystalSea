@@ -1,7 +1,16 @@
 import "./scss/index.scss";
 
 /* TABS */
-
+function myFunction() {
+ const checkBox = document.getElementById("toggle_checkbox");
+ const text = document.getElementById("service__cards-wrapper");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+export default myFunction()
 /* SCROLL TO TOP BTN */
 const scrollToTopButton = document.getElementById("js-top");
 const scrollFunc = () => {

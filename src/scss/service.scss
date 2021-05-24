@@ -51,7 +51,7 @@
 }
 
 #toggle_checkbox {
-    display: block;
+    display: none;
 }
 
 label {
@@ -105,6 +105,9 @@ label:after {
 }
 
 .service__cards-wrapper {
+    width: 100%;
+    max-width: 1384px;
+    margin: 0 auto;
     display: flex;
     flex-basis: 33.33%;
     flex-direction: row;
@@ -153,8 +156,4 @@ label:after {
     font-size: $smalltext;
     line-height: 24px;
     font-weight: 300;
-}
-
-.saintp {
-    display: none;
 }
