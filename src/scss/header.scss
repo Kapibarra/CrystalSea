@@ -47,3 +47,15 @@
         text-decoration: none;
     }
 }
+
+@media screen and (max-width: 1280px) {
+    .desktop-nav {
+        display: none;
+    }
+    .nav-toggle {
+        display: block !important;
+    }
+    .header__contacts {
+        display: none;
+    }
+}

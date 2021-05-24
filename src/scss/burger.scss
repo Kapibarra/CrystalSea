@@ -10,12 +10,23 @@
     font-size: 2rem;
     height: 100vh;
     right: -385px;
-    padding: 6rem 2rem 2rem 2rem;
+    padding: 10rem 2rem 2rem 2rem;
     position: fixed;
     top: 0;
     width: 20rem;
     z-index: 1;
     opacity: 0.97;
+}
+
+.header__contacts-itemmobile {
+    padding-top: 50px;
+    font-size: $smalltext;
+    color: black;
+    opacity: 0.9;
+}
+
+.tel {
+    font-size: 12px;
 }
 
 .visible {
@@ -57,7 +68,7 @@
     right: 50px;
     position: fixed;
     top: 53px;
-    width: 3.6rem;
+    width: 50px;
     z-index: 2;
     display: none;
 }
@@ -79,7 +90,7 @@
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    background: $bg;
+    background: $black;
     border-radius: 10px;
     content: '';
     height: 2px;
@@ -104,7 +115,7 @@
 
 .nav-toggle.expanded .nav-toggle-bar::after,
 .nav-toggle.expanded .nav-toggle-bar::before {
-    background: $bg;
+    background: $black;
     margin-top: 0;
 }
 
