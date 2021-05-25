@@ -112,3 +112,9 @@
         margin-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .about__button {
+        width: 260px;
+    }
+}

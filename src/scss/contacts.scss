@@ -103,3 +103,9 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .form {
+        width: 280px;
+    }
+}

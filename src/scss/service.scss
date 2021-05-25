@@ -305,3 +305,18 @@ label:after {
         padding-right: 10px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .service__toggle-title {
+        padding-top: 10px;
+        width: 100px;
+        font-size: 14px;
+    }
+    .service__toggle-wrapper {
+        width: 300px;
+    }
+    .service__card {
+        width: 280px;
+        padding: 10px;
+    }
+}

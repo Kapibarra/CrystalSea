@@ -68,3 +68,13 @@
         width: 380px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .main__image {
+        margin-top: 40px;
+        width: 300px;
+    }
+    .main__title {
+        font-size: 36px;
+    }
+}
