@@ -61,3 +61,10 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .main__image {
+        margin-top: 40px;
+        width: 380px;
+    }
+}

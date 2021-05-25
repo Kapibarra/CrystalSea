@@ -85,3 +85,21 @@
         padding: 10px;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .form {
+        width: 320px;
+    }
+    .contacts {
+        background: url(../../src/img/contact2.png) no-repeat;
+        background-position: bottom center;
+    }
+    .copyright {
+        padding-bottom: 20px;
+        margin-top: 45px !important;
+    }
+    .footer__logo {
+        width: 150px;
+        margin: 0 auto;
+    }
+}

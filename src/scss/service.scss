@@ -214,6 +214,17 @@ label:after {
     }
 }
 
+@media screen and (max-width: 1280px) {
+    #text1 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    #text2 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     label {
         display: block;
@@ -281,5 +292,16 @@ label:after {
     .service__card {
         margin: 0 auto;
         margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #text1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #text2 {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
