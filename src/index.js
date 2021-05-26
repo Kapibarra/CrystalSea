@@ -1,5 +1,12 @@
 import "./scss/index.scss";
 
+/* Nav Scroll */
+
+(function($) {
+  $(window).on("load", function() {
+      $("a[rel='m_PageScroll2id']").mPageScroll2id();
+  });
+})(jQuery);
 
 /* SCROLL TO TOP BTN */
 const scrollToTopButton = document.getElementById("js-top");

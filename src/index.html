@@ -35,6 +35,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <script src="src\jquery-1.12.4.min.js"></script> -->
+    <script src="src/js/jquery.malihu.PageScroll2id.min.js"></script>
 
     <script src="../src/js/wow.min.js"></script>
     <!-- links-->
@@ -51,10 +53,10 @@
                 </div>
             </div>
             <div class="header__nav desktop-nav animate__animated animate__bounceIn">
-                <a class="header__nav-item" href="" aria-label="about">О нас</a>
-                <a class="header__nav-item" href="" aria-label="service">Услуги</a>
-                <a class="header__nav-item" href="" aria-label="gallery">Галерея</a>
-                <a class="header__nav-item" href="" aria-label="contacts">Контакты</a>
+                <a class="header__nav-item" href="#about" aria-label="about" rel="m_PageScroll2id">О нас</a>
+                <a class="header__nav-item" href="#service" aria-label="service" rel="m_PageScroll2id">Услуги</a>
+                <a class="header__nav-item" href="#gallery" aria-label="gallery" rel="m_PageScroll2id">Галерея</a>
+                <a class="header__nav-item" href="#contacts" aria-label="contacts" rel="m_PageScroll2id">Контакты</a>
             </div>
             <div class="header__contacts animate__animated animate__fadeInLeft">
                 <p class="header__contacts-item">Москва <br /> +7 999 999 99 99</p>
@@ -70,10 +72,10 @@
                 </div>
 
                 <ul>
-                    <li><a class="header__nav-item" href="" aria-label="about">О нас</a></li>
-                    <li><a class="header__nav-item" href="" aria-label="service">Услуги</a></li>
-                    <li><a class="header__nav-item" href="" aria-label="gallery">Галерея</a></li>
-                    <li><a class="header__nav-item" href="" aria-label="contacts">Контакты</a></li>
+                    <li><a class="header__nav-item" href="#about" aria-label="about" rel="m_PageScroll2id">О нас</a></li>
+                    <li><a class="header__nav-item" href="#service" aria-label="service" rel="m_PageScroll2id">Услуги</a></li>
+                    <li><a class="header__nav-item" href="#gallery" aria-label="gallery" rel="m_PageScroll2id">Галерея</a></li>
+                    <li><a class="header__nav-item" href="#contacts" aria-label="contacts" rel="m_PageScroll2id">Контакты</a></li>
                 </ul>
             </nav>
         </div>
@@ -89,7 +91,7 @@
             </div>
         </main>
         <!-- MAIN ENDS -->
-        <section class="about ">
+        <section class="about " id="about">
             <div>
                 <h1 class="about__title wow animate__animated animate__fadeInLeft">О нас</h1>
                 <h2 class="about__small-title wow animate__animated animate__fadeInLeft">*Наши специалисты имеют огромный стаж обслуживания аквариумов разных категорий
@@ -121,7 +123,7 @@
                 </div>
             </div>
         </section>
-        <section class="service">
+        <section class="service" id="service">
             <div class="service__title-wrapper">
                 <div>
                     <h1 class="service__title wow animate__animated animate__fadeInLeft">Наши услуги</h1>
@@ -319,7 +321,7 @@
             <h2 class="about__sedcription wow animate__animated animate__fadeInLeft">*Обращаем ваше внимание что мы так же оказываем услуги по установке и замене оборудования</h2>
             <h2 class="about__sedcription wow animate__animated animate__fadeInLeft">*Если вы не нашли требуемой услуги в списке, свяжитесь с нами!</h2>
         </section>
-        <section class="gallery">
+        <section class="gallery" id="gallery">
             <h1 class="gallery__title wow animate__animated animate__fadeInLeft">Галерея</h1>
             <h2 class="gallery__subtitle wow animate__animated animate__fadeInLeft">*Здесь представленный фотографии наших работ</h2>
             <div class="gallery__img-wrapper mobile">
@@ -359,7 +361,7 @@
                 </div>
             </div>
     </div>
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <h1 class="wow animate__animated animate__fadeInLeft">Наши контакты</h1>
         <h2 class="wow animate__animated animate__fadeInLeft">*Вы можете связаться с нами по реквизитам ниже, или оставить заявку через форму</h2>
         <div class="contacts__items-wrapper">
@@ -437,6 +439,7 @@
     <script>
         new WOW().init();
     </script>
+
 </body>
 
 <!-- 
