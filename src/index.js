@@ -63,12 +63,18 @@ function tabsChange() {
   const checkBox = document.getElementById("toggle_checkbox");
   const text1 = document.getElementById("text1");
   const text2 = document.getElementById("text2");
+  const msk = document.getElementById("moscow");
+  const spb = document.getElementById("saintp")
   if (checkBox.checked == true) {
       text2.style.display = "block";
       text1.style.display = "none";
+      spb.classList.add("active-city")
+      msk.classList.remove("active-city")
   } else {
       text1.style.display = "block";
       text2.style.display = "none";
+      msk.classList.add("active-city")
+      spb.classList.remove("active-city")
   }
 }
 

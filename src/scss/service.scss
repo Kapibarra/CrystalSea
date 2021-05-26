@@ -33,6 +33,10 @@
     line-height: 42px;
 }
 
+.active-city {
+    color: $highlight;
+}
+
 .service__title {
     font-size: $title;
     font-weight: 300;
