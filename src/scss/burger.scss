@@ -1,143 +1,150 @@
-.nav {
-    -webkit-transition: right 0.5s ease;
-    -moz-transition: right 0.5s ease;
-    -ms-transition: right 0.5s ease;
-    -o-transition: right 0.5s ease;
-    transition: right 0.5s ease;
-    background: $highlight;
-    color: #fffefb;
-    cursor: pointer;
-    font-size: 2rem;
-    height: 100vh;
-    right: -385px;
-    padding: 10rem 2rem 2rem 2rem;
-    position: fixed;
-    top: 0;
-    width: 20rem;
-    z-index: 1;
-    opacity: 0.91;
-}
-
-.header__contacts-itemmobile {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    padding-top: 50px;
-    font-size: $smalltext;
-    color: black;
-    opacity: 0.9;
-}
-
-.tel {
-    color: $black;
-    margin-bottom: 20px;
-    font-size: 12px;
-}
-
-.visible {
-    opacity: 0.97;
-    transition: all 1.5s;
-}
-
-.unvisible {
-    opacity: 0 !important;
-    transition: all 0.4s;
-}
-
-.nav.expanded {
-    right: 0;
-    opacity: 0.97 !important;
-}
-
-.expanded {
-    opacity: 0.97 !important;
-}
-
-.nav ul {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-toggle {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    cursor: pointer;
-    height: 50px;
-    right: 50px;
-    position: fixed;
-    top: 53px;
-    width: 50px;
-    z-index: 2;
-    display: none;
-}
-
-.nav-toggle:hover {
-    opacity: 0.8;
-}
-
-.nav-toggle .nav-toggle-bar,
-.nav-toggle .nav-toggle-bar::after,
-.nav-toggle .nav-toggle-bar::before {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    background: $black;
-    border-radius: 10px;
-    content: '';
-    height: 2px;
-    width: 100%;
-}
-
-.nav-toggle .nav-toggle-bar {
-    margin-top: 0;
-}
-
-.nav-toggle .nav-toggle-bar::after {
-    margin-top: 19px;
-}
-
-.nav-toggle .nav-toggle-bar::before {
-    margin-top: -19px;
-}
-
-.nav-toggle.expanded .nav-toggle-bar {
-    background: transparent;
-}
-
-.nav-toggle.expanded .nav-toggle-bar::after,
-.nav-toggle.expanded .nav-toggle-bar::before {
-    background: $black;
-    margin-top: 0;
-}
-
-.nav-toggle.expanded .nav-toggle-bar::after {
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.nav-toggle.expanded .nav-toggle-bar::before {
-    -ms-transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-@media screen and (max-width: 410px) {
-    .nav.expanded {
-        right: -64px;
+    .nav {
+        -webkit-transition: right 0.5s ease;
+        -moz-transition: right 0.5s ease;
+        -ms-transition: right 0.5s ease;
+        -o-transition: right 0.5s ease;
+        transition: right 0.5s ease;
+        background: $highlight;
+        color: #fffefb;
+        cursor: pointer;
+        font-size: 2rem;
+        height: 100vh;
+        right: -385px;
+        padding: 10rem 2rem 2rem 2rem;
+        position: fixed;
+        top: 0;
+        width: 20rem;
+        z-index: 1;
+        opacity: 0.91;
     }
-}
+    
+    .header__contacts-itemmobile {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        padding-top: 50px;
+        font-size: $smalltext;
+        color: black;
+        opacity: 0.9;
+    }
+    
+    .tel {
+        color: $black;
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: $black;
+        transition: all 0.3s;
+        &:hover {
+            transition: all 0.3s;
+            color: $highlight;
+            text-decoration: none;
+        }
+    }
+    
+    .visible {
+        opacity: 0.97;
+        transition: all 1.5s;
+    }
+    
+    .unvisible {
+        opacity: 0 !important;
+        transition: all 0.4s;
+    }
+    
+    .nav.expanded {
+        right: 0;
+        opacity: 0.97 !important;
+    }
+    
+    .expanded {
+        opacity: 0.97 !important;
+    }
+    
+    .nav ul {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-toggle {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        cursor: pointer;
+        height: 50px;
+        right: 50px;
+        position: fixed;
+        top: 53px;
+        width: 50px;
+        z-index: 2;
+        display: none;
+    }
+    
+    .nav-toggle:hover {
+        opacity: 0.8;
+    }
+    
+    .nav-toggle .nav-toggle-bar,
+    .nav-toggle .nav-toggle-bar::after,
+    .nav-toggle .nav-toggle-bar::before {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        background: $black;
+        border-radius: 10px;
+        content: '';
+        height: 2px;
+        width: 100%;
+    }
+    
+    .nav-toggle .nav-toggle-bar {
+        margin-top: 0;
+    }
+    
+    .nav-toggle .nav-toggle-bar::after {
+        margin-top: 19px;
+    }
+    
+    .nav-toggle .nav-toggle-bar::before {
+        margin-top: -19px;
+    }
+    
+    .nav-toggle.expanded .nav-toggle-bar {
+        background: transparent;
+    }
+    
+    .nav-toggle.expanded .nav-toggle-bar::after,
+    .nav-toggle.expanded .nav-toggle-bar::before {
+        background: $black;
+        margin-top: 0;
+    }
+    
+    .nav-toggle.expanded .nav-toggle-bar::after {
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    
+    .nav-toggle.expanded .nav-toggle-bar::before {
+        -ms-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    
+    @media screen and (max-width: 410px) {
+        .nav.expanded {
+            right: -64px;
+        }
+    }
