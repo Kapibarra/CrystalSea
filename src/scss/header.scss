@@ -7,9 +7,10 @@
 }
 
 .header__logo {
-    height: 150px;
+    margin-top: 31px;
+    height: 55px;
     & img {
-        height: 150px;
+        height: 55px;
     }
 }
 
@@ -63,5 +64,16 @@
         max-width: 1200px;
         display: flex;
         justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__logo {
+        width: 220px;
+        margin-top: 55px;
+        & img {
+            width: 220px;
+            height: 40px;
+        }
     }
 }

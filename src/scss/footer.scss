@@ -7,9 +7,10 @@
 }
 
 .footer__logo {
-    height: 150px;
+    margin-top: 31px;
+    height: 55px;
     & img {
-        height: 150px;
+        height: 55px;
     }
 }
 
@@ -24,5 +25,16 @@
         margin: 0 auto;
         box-sizing: border-box;
         padding: 20px;
+    }
+    .footer__logo {
+        width: 220px;
+        margin: 0 auto;
+        & img {
+            width: 220px;
+            height: 40px;
+        }
+    }
+    .copyright {
+        text-align: center;
     }
 }
