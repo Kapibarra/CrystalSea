@@ -22,7 +22,7 @@
         display: flex;
         flex-direction: column;
         width: 200px;
-        padding-top: 50px;
+        padding-top: 25px;
         font-size: $smalltext;
         color: black;
         opacity: 0.9;
@@ -93,7 +93,7 @@
     .nav-toggle .nav-toggle-bar::after,
     .nav-toggle .nav-toggle-bar::before {
         position: absolute;
-        top: 50%;
+        top: 60%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
