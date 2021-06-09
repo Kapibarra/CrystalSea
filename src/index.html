@@ -245,6 +245,9 @@
                 </div>
             </div>
             <div id="text2" style="display:none">
+                <div class="service__title animate__animated animate__fadeInRight">
+                    <h1 class="service__title">Пресноводные аквариумы</h1>
+                </div>
                 <div class="service__cards-wrapper saintp">
                     <div class="service__card animate__animated animate__flipInY">
                         <h2>Питер
@@ -291,6 +294,11 @@
                         </p>
                         <button class="about__button" data-toggle="modal" data-target="#smallModal">Заказать</button>
                     </div>
+                </div>
+                <div class="service__title animate__animated animate__fadeInRight">
+                    <h1 class="service__title">Морские аквариумы</h1>
+                </div>
+                <div class="service__cards-wrapper saintp">
                     <div class="service__card animate__animated animate__flipInY">
                         <h2>Питер
                         </h2>
@@ -419,6 +427,10 @@
                     <option value="1000">от 700 до 1000 литров</option>
                 </select>
                 <button class="form__button" type="submit">Отправить</button>
+                <div class="modal__private-policy">
+                    <input type="checkbox" checked id="private" name="private-policy" placeholder="Политика конфиденциальности">
+                    <p class="private-policy">Политика конфиденциальности</p>
+                </div>
             </div>
         </form>
     </section>
@@ -450,17 +462,17 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <div class="modal-form">
-                            <div class="modal__img">
-                            </div>
-                            <input type="name" class="form-field modal-form-input" placeholder="Ваше имя">
-                            <input type="email" class="form-field modal-form-input" placeholder="Ваш E-Mail">
-                            <select>
+                        <input class="modal-form">
+                        <div class="modal__img">
+                        </div>
+                        <input type="name" class="form-field modal-form-input" placeholder="Ваше имя">
+                        <input type="email" class="form-field modal-form-input" placeholder="Ваш E-Mail">
+                        <select>
                                 <option value="">Выберите свой город</option>
                                 <option value="moscow">Москва</option>
                                 <option value="saintp">Санкт-Петербург</option>
                             </select>
-                            <select>
+                        <select>
                                 <option value="">Выберите объем</option>
                                 <option value="100">до 100 литров</option>
                                 <option value="300">от 100 до 300 литров</option>
@@ -468,16 +480,21 @@
                                 <option value="700">от 500 до 700 литров</option>
                                 <option value="1000">от 700 до 1000 литров</option>
                             </select>
-                            <button class="modal-form-button" type="submit">Отправить</button>
+
+                        <button class="modal-form-button" type="submit">Отправить</button>
+                        <div class="modal__private-policy">
+                            <input type="checkbox" checked id="private" name="private-policy" placeholder="Политика конфиденциальности">
+                            <p class="private-policy">Политика конфиденциальности</p>
                         </div>
-                    </form>
-                    <div class="modal__contacts-item">
-                        <p>Москва <br /> <a href="tel:+1234567890" class="tel">+7 999 999 99 99</a></p>
-                        <p>Санкт-Петербург <br /> <a href="tel:+1234567890" class="tel:+79312622345">+7 931 262-23-45</a></p>
-                    </div>
+                </div>
+                </form>
+                <div class="modal__contacts-item">
+                    <p>Москва <br /> <a href="tel:+1234567890" class="tel">+7 999 999 99 99</a></p>
+                    <p>Санкт-Петербург <br /> <a href="tel:+1234567890" class="tel:+79312622345">+7 931 262-23-45</a></p>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 
