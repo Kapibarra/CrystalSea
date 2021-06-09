@@ -87,15 +87,3 @@ function tabsChange() {
 
 document.getElementById("toggle_checkbox").addEventListener("click", tabsChange)
 
-
-/* private policy*/ /* modal*/
-
-function privatePolicy() {
-  if (document.getElementById('modal-private').checked === true) {
-document.getElementById('form-btn-id').disabled === false
-  } else {
-    document.getElementById('form-btn-id').disabled === true
-  }
-}
-
-window.onload = privatePolicy()
