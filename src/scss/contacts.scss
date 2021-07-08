@@ -89,6 +89,29 @@ select {
     }
 }
 
+.terms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    & input {
+        margin-top: 5px;
+    }
+}
+
+#sendNew:disabled {
+    cursor: not-allowed;
+    color: rgb(41, 41, 41);
+    background: linear-gradient(to right, #ea8478 0%, #476798 100%);
+    opacity: 0.3;
+}
+
+#form-btn-id:disabled {
+    cursor: not-allowed;
+    color: rgb(41, 41, 41);
+    background: linear-gradient(to right, #ea8478 0%, #476798 100%);
+    opacity: 0.3;
+}
+
 .modal__private-policy {
     margin-top: 15px;
     display: flex;

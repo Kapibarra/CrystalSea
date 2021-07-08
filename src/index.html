@@ -426,10 +426,12 @@
                     <option value="700">от 500 до 700 литров</option>
                     <option value="1000">от 700 до 1000 литров</option>
                 </select>
-                <button class="form__button" type="submit">Отправить</button>
+                <button class="form__button" type="submit" id="sendNew">Отправить</button>
                 <div class="modal__private-policy">
-                    <input type="checkbox" checked class="private" name="private-policy" placeholder="Политика конфиденциальности">
-                    <a href="#" class="private-policy">Политика конфиденциальности</a>
+                    <div class="terms">
+                        <input type="checkbox" checked onchange="document.getElementById('sendNew').disabled = !this.checked;" />
+                        <a class="private-policy" href="src\policy\Политика конфиденциальности.docx">Я согласен (-на) на обработку моих персональных данных</a>
+                    </div>
                 </div>
             </div>
         </form>
@@ -481,26 +483,27 @@
                                 <option value="1000">от 700 до 1000 литров</option>
                             </select>
 
-                        <button class="modal-form-button" id="form-btn-id" type="submit" disabled="disabled">Отправить</button>
+                        <button class="modal-form-button" id="form-btn-id" type="submit">Отправить</button>
                         <div class="modal__private-policy">
-                            <input type="checkbox" checked id="modal-private" name="private-policy" placeholder="Политика конфиденциальности">
-                            <a href="#" class="private-policy">Политика конфиденциальности</a>
+                            <div class="terms">
+                                <input type="checkbox" checked onchange="document.getElementById('form-btn-id').disabled = !this.checked;" />
+                                <a class="private-policy" href="src\policy\Политика конфиденциальности.docx">Я согласен (-на) на обработку моих персональных данных</a>
+                            </div>
                         </div>
                 </div>
                 </form>
                 <div class="modal__contacts-item">
-                    <p>Москва <br /> <a href="tel:+1234567890" class="tel">+7 999 999 99 99</a></p>
-                    <p>Санкт-Петербург <br /> <a href="tel:+1234567890" class="tel:+79312622345">+7 931 262-23-45</a></p>
+                    <p>Москва <br /> <a href="tel:+79959029016" class="tel">+7 995 902 90 16</a></p>
+                    <p>Санкт-Петербург <br /> <a href="tel:+79312622345" class="tel">+7 931 262-23-45</a></p>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-    <script>
-        new WOW().init();
-    </script>
+        <script>
+            new WOW().init();
+        </script>
 
 </body>
 
