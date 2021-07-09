@@ -147,6 +147,11 @@ select {
 @media screen and (max-width: 414px) {
     .form {
         width: 320px;
+        margin: 0 auto;
+        margin-top: 100px;
+        & select {
+            margin: 0 auto;
+        }
     }
     .contacts {
         background: url(../../src/img/contact2.png) no-repeat;
@@ -155,6 +160,12 @@ select {
     .copyright {
         padding-bottom: 20px;
         margin-top: 45px !important;
+    }
+    .contacts__items-wrapper {
+        display: block;
+    }
+    .contacts__tel {
+        margin-bottom: 20px;
     }
 }
 
