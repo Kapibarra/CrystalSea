@@ -86,4 +86,3 @@ function tabsChange() {
 }
 
 document.getElementById("toggle_checkbox").addEventListener("click", tabsChange)
-
