@@ -24,7 +24,6 @@ body {
     line-height: 24px;
     margin: 0;
     background-color: $bg;
-    perspective: 1000px;
 }
 
 main {
@@ -50,11 +49,6 @@ pre {
     /* 1 */
     font-size: 1em;
     /* 2 */
-}
-
-.highlightedtext {
-    font-family: 'Yomogi', cursive;
-    color: $highlight;
 }
 
 a {

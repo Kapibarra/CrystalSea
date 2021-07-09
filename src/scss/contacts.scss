@@ -114,7 +114,14 @@ select {
 
 .contacts_tel_number {
     font-size: 20px !important;
+    color: $gray;
     font-family: 'Righteous', cursive;
+    transition: all 0.3s;
+    &:hover {
+        transition: all 0.3s;
+        color: $highlight;
+        text-decoration: none;
+    }
 }
 
 .modal__private-policy {

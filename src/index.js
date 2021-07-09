@@ -1,4 +1,5 @@
 import "./scss/index.scss";
+import Inputmask from "inputmask";
 
 /* Nav Scroll */
 
@@ -86,3 +87,7 @@ function tabsChange() {
 }
 
 document.getElementById("toggle_checkbox").addEventListener("click", tabsChange)
+
+const selector = document.getElementById("phonenum");
+const im = new Inputmask("+7(999)-999-99-99");
+im.mask(selector);
