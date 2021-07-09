@@ -8,9 +8,13 @@
     width: 100%;
     max-width: 1384px;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .brand__imgage-wrapper {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,5 +24,5 @@
 .brand__img-item {
     width: 100%;
     max-width: 280px;
-    vertical-align: baseline;
+    margin: 0 auto;
 }
