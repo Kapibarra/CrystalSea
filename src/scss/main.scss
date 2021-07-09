@@ -1,85 +1,87 @@
-.main {
-    width: 100%;
-    max-width: 1384px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-.main__image {
-    width: unset;
-    height: unset;
-    margin-top: 100px;
-}
-
-.main__button {
-    width: 280px;
-    height: 50px;
-    padding: 12px 10px;
-    border: 0;
-    background: linear-gradient(to right, #ea8478 0%, #476798 100%);
-    border-radius: 3px;
-    margin-top: 10px;
-    color: #fff;
-    border: none;
-    font-size: $text;
-    line-height: 32px;
-    font-weight: 500;
-    transform: scale(1);
-    box-shadow: none;
-    transition: all 0.3s;
-    &:hover {
-        transition: all 0.3s;
-        transform: scale(1.05);
-        cursor: pointer;
-        -webkit-box-shadow: 0px 1px 2px 2px rgba(#ea8478, 0.3);
-        -moz-box-shadow: 0px 1px 2px 2px rgba(#ea8478, 0.3);
-        box-shadow: 0px 1px 2px 2px rgba(#ea8478, 0.3);
-    }
-}
-
-.main__title {
-    width: 100%;
-    max-width: 800px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    font-size: 48px;
-    font-weight: 300;
-    line-height: 62px;
-}
-
-.highlightedmain {
-    font-family: 'Righteous', cursive;
-    color: $highlight;
-}
-
-@media screen and (max-width: 1280px) {
-    .main {
-        display: block;
-    }
-    .main__title {
-        margin-top: 35px;
-        margin-bottom: 30px;
-    }
-    .main__image {
-        width: 600px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .main__image {
-        margin-top: 40px;
-        width: 380px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .main__image {
-        margin-top: 40px;
-        width: 300px;
-    }
-    .main__title {
-        font-size: 36px;
-    }
-}
+        .main {
+            width: 100%;
+            max-width: 1384px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            transform-style: preserve-3d;
+        }
+        
+        .main__image {
+            width: unset;
+            height: unset;
+            margin-top: 100px;
+        }
+        
+        .main__button {
+            width: 280px;
+            height: 50px;
+            background: $blue;
+            color: $white;
+            border: none;
+            padding: 12px 10px;
+            border: 0;
+            background: linear-gradient(to right, #ea8478 0%, #476798 100%);
+            border-radius: 3px;
+            margin-top: 10px;
+            color: #fff;
+            font-size: $text;
+            line-height: 32px;
+            font-weight: 500;
+            box-shadow: none;
+            transition: all 0.3s;
+            &:hover {
+                transition: all 0.3s;
+                transform: scale(1.05);
+                cursor: pointer;
+                -webkit-box-shadow: 0px 1px 2px 5px rgba(#ea8478, 0.3);
+                -moz-box-shadow: 0px 1px 2px 5px rgba(#ea8478, 0.3);
+                box-shadow: 0px 1px 2px 5px rgba(#ea8478, 0.3);
+            }
+        }
+        
+        .main__title {
+            width: 100%;
+            max-width: 800px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            font-size: 48px;
+            font-weight: 300;
+            line-height: 62px;
+        }
+        
+        .highlightedmain {
+            font-family: 'Righteous', cursive;
+            color: $highlight;
+        }
+        
+        @media screen and (max-width: 1280px) {
+            .main {
+                display: block;
+            }
+            .main__title {
+                margin-top: 35px;
+                margin-bottom: 30px;
+            }
+            .main__image {
+                width: 600px;
+                margin: 0 auto;
+            }
+        }
+        
+        @media screen and (max-width: 414px) {
+            .main__image {
+                margin-top: 40px;
+                width: 380px;
+            }
+        }
+        
+        @media screen and (max-width: 375px) {
+            .main__image {
+                margin-top: 40px;
+                width: 300px;
+            }
+            .main__title {
+                font-size: 36px;
+            }
+        }
