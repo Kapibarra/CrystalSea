@@ -7,6 +7,7 @@
         "@babel/polyfill": "^7.12.1",
         "animate.css": "^4.1.1",
         "bootstrap": "^3.4.1",
+        "imask": "^6.1.0",
         "inputmask": "^5.0.5",
         "just-validate": "^1.5.0",
         "lightgallery.js": "^1.4.0",
