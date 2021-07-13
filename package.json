@@ -12,7 +12,8 @@
         "just-validate": "^1.5.0",
         "lightgallery.js": "^1.4.0",
         "normalize.css": "^8.0.1",
-        "unsplash-js": "^7.0.4"
+        "unsplash-js": "^7.0.4",
+        "vanilla-tilt": "^1.7.0"
     },
     "devDependencies": {
         "@babel/cli": "^7.13.0",
