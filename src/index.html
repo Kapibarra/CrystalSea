@@ -42,10 +42,10 @@
 <body>
     <div class="page">
         <a class="skip-link" href="#" style="display: none;">Skip</a>
-        <div class="header">
+        <div class="header" id="top">
             <div class="header__logo-container">
                 <div class="header__logo animate__animated animate__fadeInRight">
-                    <a href="index.html"><img alt="logo" src="../src/img/logo.png" /></a>
+                    <a href="#top" aria-label="top" rel="m_PageScroll2id"><img alt="logo" src="../src/img/logo.png" /></a>
                 </div>
             </div>
             <div class="header__nav desktop-nav animate__animated animate__bounceIn">
@@ -84,7 +84,7 @@
                 <button class="main__button" data-toggle="modal" data-target="#smallModal">Заказать</button>
             </div>
             <div class="main__image animate__animated animate__backInRight">
-                <img class="main__image" alt="mainimg" src="../src/img/main1.png" />
+                <img id="vantatest" class="main__image" alt="mainimg" src="../src/img/main1.png" />
             </div>
         </main>
         <!-- MAIN ENDS -->
@@ -471,7 +471,7 @@
 
         <div class="copyright">&#169 Novikov.N.M 2020 - <span id="year"></span></div>
         <div class="footer__logo">
-            <a href="index.html"><img alt="logo" src="../src/img/logo.png" /></a>
+            <a href="#top" aria-label="top" rel="m_PageScroll2id"><img alt="logo" src="../src/img/logo.png" /></a>
         </div>
         <div class="copyright">*Политика конфиденциальности <br /> *Все права защищены</div>
     </footer>
@@ -531,8 +531,25 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
         <script>
             new WOW().init();
+        </script>
+        <script type="text/javascript" src="../src/js/vanilla-tilt.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.getElementById("vantatest"), {
+                max: 15,
+                speed: 400,
+                scale: 1.1,
+
+            });
+
+            // //It also supports NodeList
+            // VanillaTilt.init(document.querySelectorAll(".service__card"));
         </script>
 </body>
 
