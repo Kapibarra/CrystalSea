@@ -21,7 +21,7 @@
             border: none;
             padding: 12px 10px;
             border: 0;
-            background: linear-gradient(to right, #ea8478 0%, #476798 100%);
+            background: linear-gradient(to right, $highlight 0%, $tocolor 100%);
             border-radius: 3px;
             margin-top: 10px;
             color: #fff;
@@ -34,9 +34,9 @@
                 transition: all 0.3s;
                 transform: scale(1.05);
                 cursor: pointer;
-                -webkit-box-shadow: 0px 1px 2px 5px rgba(#ea8478, 0.3);
-                -moz-box-shadow: 0px 1px 2px 5px rgba(#ea8478, 0.3);
-                box-shadow: 0px 1px 2px 5px rgba(#ea8478, 0.3);
+                -webkit-box-shadow: 0px 1px 2px 5px rgba($tocolor, 0.3);
+                -moz-box-shadow: 0px 1px 2px 5px rgba($tocolor, 0.3);
+                box-shadow: 0px 1px 2px 5px rgba($tocolor, 0.3);
             }
         }
         

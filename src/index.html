@@ -45,7 +45,7 @@
         <div class="header" id="top">
             <div class="header__logo-container">
                 <div class="header__logo animate__animated animate__fadeInRight">
-                    <a href="#top" aria-label="top" rel="m_PageScroll2id"><img alt="logo" src="../src/img/logo.png" /></a>
+                    <a href="#top" aria-label="top" rel="m_PageScroll2id"><img alt="logo" src="../src/img/logo01.png" /></a>
                 </div>
             </div>
             <div class="header__nav desktop-nav animate__animated animate__bounceIn">
@@ -79,12 +79,12 @@
         <!--HEADER ENDS-->
         <main class="main">
             <div class="animate__animated animate__backInLeft">
-                <h1 class="main__title ">Обслуживание морских и пресноводных аквариумов в Москве , Московской области и Санкт-петербурге от <span class="highlightedmain">1999</span> рублей!
+                <h1 class="main__title " id="vantatest2">Обслуживание морских и пресноводных аквариумов в Москве , Московской области и Санкт-петербурге от <span class="highlightedmain">1999</span> рублей!
                 </h1>
                 <button class="main__button" data-toggle="modal" data-target="#smallModal">Заказать</button>
             </div>
             <div class="main__image animate__animated animate__backInRight">
-                <img id="vantatest" class="main__image" alt="mainimg" src="../src/img/main1.png" />
+                <img id="vantatest" class="main__image" alt="mainimg" src="../src/img/test04.png" />
             </div>
         </main>
         <!-- MAIN ENDS -->
@@ -108,7 +108,7 @@
                 </div>
                 <div class="about__advantages-card">
                     <img class="about__advantages-img wow animate__animated animate__fadeInDown" alt="adimg" src="../src/img/advantage2.png" />
-                    <p class="about__advantages-text wow animate__animated animate__fadeInUp"> Более <span class="highlighted">10</span> лет опыта работы на рынке услуг по обслуживанию, установке и декорированию морских и пресноводных аквариумов.</p>
+                    <p class="about__advantages-text wow animate__animated animate__fadeInUp"> Более <span class="highlighted">14</span> лет опыта работы на рынке услуг по обслуживанию, установке и декорированию морских и пресноводных аквариумов.</p>
                 </div>
                 <div class="about__advantages-card">
                     <img class="about__advantages-img wow animate__animated animate__fadeInDown" alt="adimg" src="../src/img/advantage3.png" />
@@ -420,7 +420,8 @@
     </div>
     <section class="contacts" id="contacts">
         <h1 class="wow animate__animated animate__fadeInLeft">Наши контакты</h1>
-        <h2 class="wow animate__animated animate__fadeInLeft">*Вы можете связаться с нами по реквизитам ниже, или оставить заявку через форму</h2>
+        <h2 class="wow animate__animated animate__fadeInLeft">*Вы можете связаться с нами по реквизитам ниже, или оставить заявку через форму.
+            <br /> Мы перезвоним Вам для уточнения деталей.</h2>
         <div class="contacts__items-wrapper">
             <div class="contacts__tel wow animate__animated animate__fadeInDown">
                 <span>Телефон:</span>
@@ -432,10 +433,10 @@
             <div class="contacts__email wow animate__animated animate__fadeInDown">
                 <span>e-Mail:</span>
                 <br /><br />
-                <span>qwerty@yandex.ru Москва</span>
+                <span><a class="email-link" href="mailto:msk@aquaroom.ru" rel="noopener">msk@aquaroom.ru </a><span class="highlighted">Москва</span></span>
                 <br />
                 <br />
-                <span>qwerty@yandex.ru Санкт-Петербург</span>
+                <span><a class="email-link" href="mailto:spb@aquaroom.ru" rel="noopener"> spb@aquaroom.ru </a><span class="highlighted">Санкт-Петербург</span></span>
             </div>
         </div>
         <form>
@@ -471,7 +472,7 @@
 
         <div class="copyright">&#169 Novikov.N.M 2020 - <span id="year"></span></div>
         <div class="footer__logo">
-            <a href="#top" aria-label="top" rel="m_PageScroll2id"><img alt="logo" src="../src/img/logo.png" /></a>
+            <a href="#top" aria-label="top" rel="m_PageScroll2id"><img alt="logo" src="../src/img/logo01.png" /></a>
         </div>
         <div class="copyright">*Политика конфиденциальности <br /> *Все права защищены</div>
     </footer>
@@ -546,6 +547,16 @@
                 speed: 400,
                 scale: 1.1,
 
+            });
+
+            // //It also supports NodeList
+            // VanillaTilt.init(document.querySelectorAll(".service__card"));
+        </script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.getElementById("vantatest2"), {
+                max: 5,
+                speed: 200,
+                scale: 1.05,
             });
 
             // //It also supports NodeList
