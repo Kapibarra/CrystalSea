@@ -233,12 +233,22 @@ template {
     }
 }
 
-.test {
-    display: block;
-    position: relative;
-    width: 500px;
-    height: 500px;
-    background-color: rgb(39, 175, 39);
-    margin: 0 auto;
-    z-index: 100;
+body::-webkit-scrollbar {
+    width: 10px;
+    color: #EDF2F7;
+}
+
+body::-webkit-scrollbar-track {
+    background: #EDF2F7;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 1px 1px 3px rgba(27, 27, 27, 0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $highlight;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: inset 2px 2px 3px rgba(27, 27, 27, 0.2);
 }
