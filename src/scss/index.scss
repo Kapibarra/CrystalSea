@@ -26,10 +26,20 @@ body {
     line-height: 24px;
     margin: 0;
     background: rgb(131, 126, 214);
-    background: linear-gradient(30deg, rgba(131, 126, 214, 1) 0%, rgba(218, 255, 249, 0.8) 35%, rgba(109, 231, 255, 0.6) 100%);
+    background: linear-gradient(30deg, rgba(131, 126, 214, 0.7) 0%, rgba(218, 255, 249, 0.7) 35%, rgba(109, 231, 255, 0.5) 100%);
 }
 
 .page {
+    width: 100%;
+    max-width: 1484px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 35px;
+    // backdrop-filter: blur(10px);
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    box-shadow: 0 3px 2.3px rgba(0, 0, 0, 0.019), 0 6.5px 5.4px rgba(0, 0, 0, 0.029), 0 10.9px 9.9px rgba(0, 0, 0, 0.034), 0 17.5px 17.5px rgba(0, 0, 0, 0.036), 0 30.3px 32.6px rgba(0, 0, 0, 0.041), 0 74px 80px rgba(0, 0, 0, 0.07);
     background: linear-gradient(60deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.1) 100%);
     z-index: 5;
 }
@@ -39,10 +49,11 @@ body {
     width: 250px;
     height: 250px;
     border-radius: 100px;
-    filter: blur(20px);
+    filter: blur(10px);
+    transform: rotate(-47deg);
     background-color: $tocolor;
     top: 10%;
-    left: 15%;
+    left: 3%;
     z-index: -1;
 }
 
@@ -50,11 +61,12 @@ body {
     position: absolute;
     width: 210px;
     height: 210px;
-    border-radius: 100px;
-    filter: blur(23px);
+    border-radius: 20px;
+    transform: rotate(30deg);
+    filter: blur(13px);
     background-color: $highlight;
     top: 70%;
-    right: 10%;
+    right: 6%;
     z-index: -1;
 }
 
@@ -62,8 +74,8 @@ body {
     position: absolute;
     width: 210px;
     height: 210px;
-    border-radius: 100px;
-    filter: blur(27px);
+    border-radius: 110px;
+    filter: blur(17px);
     background-color: $highlight;
     top: 185%;
     left: 33%;
@@ -74,11 +86,11 @@ body {
     position: absolute;
     width: 210px;
     height: 210px;
-    border-radius: 100px;
+    border-radius: 70px;
     filter: blur(21px);
     background-color: $tocolor;
     top: 385%;
-    right: 33%;
+    right: 38%;
     z-index: -1;
 }
 
