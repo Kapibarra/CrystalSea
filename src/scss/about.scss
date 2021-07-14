@@ -57,6 +57,8 @@
     transform-style: preserve-3d;
     & p {
         padding-top: 4px;
+        font-size: 18px;
+        font-weight: 500;
         transform: translateZ(20px)
     }
     &:hover {

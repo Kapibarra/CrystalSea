@@ -58,7 +58,8 @@
 }
 
 .form__button {
-    padding: 12px 10px;
+    height: 60px;
+    padding: 3px;
     border: 0;
     background: linear-gradient(to right, $highlight 0%, $tocolor 100%);
     border-radius: 3px;
@@ -70,6 +71,13 @@
     transform: scale(1);
     box-shadow: none;
     transition: all 0.3s;
+    transform-style: preserve-3d;
+    & p {
+        font-size: 18px;
+        margin-bottom: 0;
+        font-weight: 500;
+        transform: translateZ(20px)
+    }
     &:hover {
         transition: all 0.3s;
         transform: scale(1.05);
