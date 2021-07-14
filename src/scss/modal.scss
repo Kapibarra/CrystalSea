@@ -1,6 +1,6 @@
 .modal-form-button {
     width: 265px;
-    height: 45px;
+    height: 55px;
     padding: 12px 10px;
     border: 0;
     background: linear-gradient(to right, $highlight 0%, $tocolor 100%);
@@ -11,6 +11,13 @@
     transform: scale(1);
     box-shadow: none;
     transition: all 0.3s;
+    transform-style: preserve-3d;
+    & p {
+        font-size: 18px;
+        padding-top: 5px;
+        font-weight: 500;
+        transform: translateZ(20px)
+    }
     &:hover {
         transition: all 0.3s;
         transform: scale(1.05);
