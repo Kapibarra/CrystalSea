@@ -417,39 +417,40 @@
                     <img alt="galleryimg" src="../src/img/555.png">
                 </div>
             </div>
-    </div>
-    <section class="contacts" id="contacts">
-        <h1 class="wow animate__animated animate__fadeInLeft">Наши контакты</h1>
-        <h2 class="wow animate__animated animate__fadeInLeft">*Вы можете связаться с нами по реквизитам ниже, или оставить заявку через форму.
-            <br /> Мы перезвоним Вам для уточнения деталей.</h2>
-        <div class="contacts__items-wrapper">
-            <div class="contacts__tel wow animate__animated animate__fadeInDown">
-                <span>Телефон:</span>
-                <br /><br />
-                <span class="highlightedtext"> <a href="tel:+79959029016" class="contacts_tel_number">+7 995 902 90 16</a></span>
-                <br /><br />
-                <span class="highlightedtext"><a href="tel:+79312622345" class="contacts_tel_number">+7 931 262-23-45</a></span>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <h1 class="wow animate__animated animate__fadeInLeft">Наши контакты</h1>
+            <h2 class="wow animate__animated animate__fadeInLeft">*Вы можете связаться с нами по реквизитам ниже, или оставить заявку через форму.
+                <br /> Мы перезвоним Вам для уточнения деталей.</h2>
+            <div class="contacts__items-wrapper">
+                <div class="contacts__tel wow animate__animated animate__fadeInDown">
+                    <span>Телефон:</span>
+                    <br /><br />
+                    <span class="highlightedtext"> <a href="tel:+79959029016" class="contacts_tel_number">+7 995 902 90 16</a></span>
+                    <br /><br />
+                    <span class="highlightedtext"><a href="tel:+79312622345" class="contacts_tel_number">+7 931 262-23-45</a></span>
+                </div>
+                <div class="contacts__email wow animate__animated animate__fadeInDown">
+                    <span>e-Mail:</span>
+                    <br /><br />
+                    <span><a class="email-link" href="mailto:msk@aquaroom.ru" rel="noopener">msk@aquaroom.ru </a><span class="highlighted">Москва</span></span>
+                    <br />
+                    <br />
+                    <span><a class="email-link" href="mailto:spb@aquaroom.ru" rel="noopener"> spb@aquaroom.ru </a><span class="highlighted">Санкт-Петербург</span></span>
+                </div>
             </div>
-            <div class="contacts__email wow animate__animated animate__fadeInDown">
-                <span>e-Mail:</span>
-                <br /><br />
-                <span><a class="email-link" href="mailto:msk@aquaroom.ru" rel="noopener">msk@aquaroom.ru </a><span class="highlighted">Москва</span></span>
-                <br />
-                <br />
-                <span><a class="email-link" href="mailto:spb@aquaroom.ru" rel="noopener"> spb@aquaroom.ru </a><span class="highlighted">Санкт-Петербург</span></span>
-            </div>
-        </div>
-        <form>
-            <div class="form wow animate__animated animate__fadeInDown">
-                <input type="name" class="form-field" placeholder="Ваше имя">
-                <input type="email" id="emailadress" class="form-field" placeholder="Ваш E-Mail">
-                <input type="tel" id="phonenum" class="form-field" placeholder="+7 (999) 999-99-99">
-                <select>
+            <form>
+                <div class="form wow animate__animated animate__fadeInDown">
+                    <input type="name" class="form-field" placeholder="Ваше имя">
+                    <input type="email" id="emailadress" class="form-field" placeholder="Ваш E-Mail">
+                    <input type="tel" id="phonenum" class="form-field" placeholder="+7 (999) 999-99-99">
+                    <select>
                     <option value="">Выберите свой город</option>
                     <option value="moscow">Москва</option>
                     <option value="saintp">Санкт-Петербург</option>
                 </select>
-                <select>
+                    <select>
                     <option value="">Выберите объем</option>
                     <option value="100">до 100 литров</option>
                     <option value="300">от 100 до 300 литров</option>
@@ -457,26 +458,28 @@
                     <option value="700">от 500 до 700 литров</option>
                     <option value="1000">от 700 до 1000 литров</option>
                 </select>
-                <button class="form__button" type="submit" id="sendNew"><p>Отправить</p></button>
-                <div class="modal__private-policy">
-                    <div class="terms">
-                        <input type="checkbox" checked onchange="document.getElementById('sendNew').disabled = !this.checked;" />
-                        <a class="private-policy" href="src\policy\Политика конфиденциальности.docx"><span class="highlightedtext">Я согласен (-на) на обработку моих персональных данных</span></a>
+                    <button class="form__button" type="submit" id="sendNew"><p>Отправить</p></button>
+                    <div class="modal__private-policy">
+                        <div class="terms">
+                            <input type="checkbox" checked onchange="document.getElementById('sendNew').disabled = !this.checked;" />
+                            <a class="private-policy" href="src\policy\Политика конфиденциальности.docx"><span class="highlightedtext">Я согласен (-на) на обработку моих персональных данных</span></a>
+                        </div>
                     </div>
                 </div>
+            </form>
+        </section>
+
+        <footer class="footer wow animate__animated animate__fadeInDown">
+
+            <div class="copyright">&#169 Novikov.N.M 2020 - <span id="year"></span></div>
+            <div class="footer__logo">
+                <a href="#top" aria-label="top" rel="m_PageScroll2id"><img alt="logo" src="../src/img/logo01.png" /></a>
             </div>
-        </form>
-    </section>
-
-    <footer class="footer wow animate__animated animate__fadeInDown">
-
-        <div class="copyright">&#169 Novikov.N.M 2020 - <span id="year"></span></div>
-        <div class="footer__logo">
-            <a href="#top" aria-label="top" rel="m_PageScroll2id"><img alt="logo" src="../src/img/logo01.png" /></a>
-        </div>
-        <div class="copyright">*Политика конфиденциальности <br /> *Все права защищены</div>
-    </footer>
-
+            <div class="copyright">*Политика конфиденциальности <br /> *Все права защищены</div>
+        </footer>
+    </div>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
     <a class="top-link hide" href="" id="js-top">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
             <path d="M12 6H0l6-6z" />
