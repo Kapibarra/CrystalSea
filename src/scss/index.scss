@@ -30,7 +30,6 @@ body {
 
 .page {
     background: linear-gradient(60deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.1) 100%);
-    backdrop-filter: blur(10px);
     z-index: 5;
 }
 
@@ -39,6 +38,7 @@ body {
     width: 250px;
     height: 250px;
     border-radius: 100px;
+    filter: blur(20px);
     background-color: $tocolor;
     top: 10%;
     left: 15%;
@@ -50,9 +50,58 @@ body {
     width: 210px;
     height: 210px;
     border-radius: 100px;
+    filter: blur(23px);
     background-color: $highlight;
     top: 70%;
     right: 10%;
+    z-index: -1;
+}
+
+.circle3 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 100px;
+    filter: blur(27px);
+    background-color: $highlight;
+    top: 185%;
+    left: 33%;
+    z-index: -1;
+}
+
+.circle4 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 100px;
+    filter: blur(21px);
+    background-color: $tocolor;
+    top: 385%;
+    right: 33%;
+    z-index: -1;
+}
+
+.circle5 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 100px;
+    filter: blur(22px);
+    background-color: $tocolor;
+    top: 785%;
+    left: 13%;
+    z-index: -1;
+}
+
+.circle6 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 100px;
+    filter: blur(3px);
+    background-color: $highlight;
+    top: 1185%;
+    left: 33%;
     z-index: -1;
 }
 
