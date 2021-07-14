@@ -67,14 +67,12 @@ window.addEventListener("scroll", burgerButtonToggle);
 
 // desktop menu stick toggle
 function stickyMenuToggle() {
-  const stickyMenu = document.querySelector(".sidebar-menu")
+  const stickyMenu = document.querySelector(".stickyheader")
   const yPos = window.scrollY;
   if (yPos > 80) {
-    stickyMenu.classList.add("sidevisible")
-    stickyMenu.classList.remove("sideunvisible")
+    stickyMenu.classList.add("sticktopvisible")
   } else {
-    stickyMenu.classList.remove("stickvisible");
-    stickyMenu.classList.add("sideunvisible")
+    stickyMenu.classList.remove("sticktopvisible");
   }
 }
 window.addEventListener("scroll", stickyMenuToggle);
