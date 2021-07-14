@@ -1,0 +1,29 @@
+.sidevisible {
+    opacity: 1;
+    transition: all 0.7s ease-in;
+}
+
+.sideunvisible {
+    opacity: 0;
+    transition: all 0.7s ease-out;
+}
+
+.sidebar-title {
+    position: fixed;
+    top: 50%;
+    left: -45px;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-align: center;
+    transform: rotate(-90deg)
+}
+
+.sidebar-menu {
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    Width: 50px;
+    height: 100vh;
+    background: linear-gradient(to bottom, $highlight 0%, $tocolor 100%);
+}

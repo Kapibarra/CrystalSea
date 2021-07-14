@@ -50,6 +50,7 @@ scrollToTopButton.onclick = function (e) {
   // hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
 }());
 
+// Burger onscroll toggle
 function burgerButtonToggle() {
   const burgerButton = document.querySelector(".nav-toggle")
   const yPos = window.scrollY;
@@ -62,6 +63,21 @@ function burgerButtonToggle() {
   }
 }
 window.addEventListener("scroll", burgerButtonToggle);
+
+
+// desktop menu stick toggle
+function stickyMenuToggle() {
+  const stickyMenu = document.querySelector(".sidebar-menu")
+  const yPos = window.scrollY;
+  if (yPos > 80) {
+    stickyMenu.classList.add("sidevisible")
+    stickyMenu.classList.remove("sideunvisible")
+  } else {
+    stickyMenu.classList.remove("stickvisible");
+    stickyMenu.classList.add("sideunvisible")
+  }
+}
+window.addEventListener("scroll", stickyMenuToggle);
 
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
