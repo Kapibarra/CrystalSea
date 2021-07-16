@@ -48,16 +48,22 @@
 .main__title {
     width: 100%;
     max-width: 800px;
-    margin-top: 120px;
-    margin-bottom: 100px;
+    margin-top: 160px;
+    margin-bottom: 60px;
     font-size: 48px;
     font-weight: 600;
     line-height: 62px;
     color: #282828;
-    animation: glow 20s ease-in-out infinite;
+    text-shadow: 0 3px 2.3px rgba(0, 0, 0, 0.019), 0 6.5px 5.4px rgba(0, 0, 0, 0.029), 0 10.9px 9.9px rgba(0, 0, 0, 0.034), 0 17.5px 17.5px rgba(0, 0, 0, 0.036), 0 30.3px 32.6px rgba(0, 0, 0, 0.041), 0 74px 80px rgba(0, 0, 0, 0.07);
+    ;
+    // animation: glow 20s ease-in-out infinite;
     transform-style: preserve-3d;
     & .highlightedmain {
         transform: translateZ(40px);
+    }
+    & img {
+        width: 100%;
+        max-width: 700px;
     }
     @keyframes glow {
         0%,
