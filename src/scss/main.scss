@@ -11,6 +11,11 @@
     width: unset;
     height: unset;
     margin-top: 40px;
+    & img {
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 90% !important;
+    }
 }
 
 .main__button {
