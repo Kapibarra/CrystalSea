@@ -78,7 +78,7 @@
         height: 50px;
         right: 50px;
         position: fixed;
-        top: 53px;
+        top: 90px;
         width: 50px;
         z-index: 2;
         display: none;
@@ -101,10 +101,10 @@
         -ms-transition: all 0.5s ease;
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease;
-        background: $black;
+        background: $highlight;
         border-radius: 10px;
         content: '';
-        height: 2px;
+        height: 5px;
         width: 100%;
     }
     
