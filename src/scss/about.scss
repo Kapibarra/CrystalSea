@@ -122,6 +122,9 @@
     .about {
         margin-top: 20px;
     }
+    .about__button {
+        transform-style: unset !important;
+    }
 }
 
 @media screen and (max-width: 375px) {

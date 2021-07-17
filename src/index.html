@@ -110,8 +110,8 @@
                 </div>
             </div>
             <div><button class="about__button" data-toggle="modal" data-target="#smallModal">
-                <p>Заказать</p>
-            </button></div>
+                    <p>Заказать</p>
+                </button></div>
             <div class="about__advantages-wrapper">
                 <div class="about__advantages-card">
                     <img class="about__advantages-img wow animate__animated animate__fadeInDown" alt="adimg" src="../src/img/advantage1.png" />
@@ -692,13 +692,15 @@
         });
     </script>
     <script type="text/javascript">
-        VanillaTilt.init(document.querySelectorAll("button"), {
-            max: 15,
-            speed: 900,
-            scale: 1.07,
-            glare: true,
-            "max-glare": 0.8,
-        });
+        if (window.screen.width >= 720) {
+            VanillaTilt.init(document.querySelectorAll("button"), {
+                max: 15,
+                speed: 900,
+                scale: 1.07,
+                glare: true,
+                "max-glare": 0.8,
+            });
+        }
     </script>
 
 </body>
