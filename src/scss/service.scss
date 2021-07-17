@@ -186,6 +186,42 @@ label:after {
     font-weight: 300;
 }
 
+.price__button {
+    width: 280px;
+    height: 60px;
+    background: $blue;
+    color: $white;
+    border: none;
+    padding: 12px 10px;
+    border: 0;
+    background: linear-gradient(to right, $highlight 0%, $tocolor 100%);
+    border-radius: 3px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: $text;
+    line-height: 32px;
+    font-weight: 500;
+    transform: scale(1);
+    box-shadow: none;
+    transition: all 0.3s;
+    transform-style: preserve-3d;
+    & p {
+        padding-top: 4px;
+        font-size: 18px;
+        font-weight: 500;
+        transform: translateZ(20px)
+    }
+    &:hover {
+        transition: all 0.3s;
+        transform: scale(1.05);
+        cursor: pointer;
+        -webkit-box-shadow: 0px 1px 2px 5px rgba($tocolor, 0.3);
+        -moz-box-shadow: 0px 1px 2px 5px rgba($tocolor, 0.3);
+        box-shadow: 0px 1px 2px 5px rgba($tocolor, 0.3);
+    }
+}
+
 .animation {
     animation-name: move;
     animation-duration: 0.6s;
