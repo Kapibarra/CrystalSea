@@ -42,11 +42,11 @@
 
 <body>
     <div class="page">
-        <a class="skip-link" href="#" style="display: none;">Skip</a>
+        <a class="skip-link" href="#" style="display: none;" aria-label="skip">Skip</a>
         <div class="header" id="top">
             <div class="header__logo-container">
                 <div class="header__logo animate__animated animate__fadeInRight">
-                    <a href="#top" aria-label="top" rel="m_PageScroll2id"><img alt="logo" src="../src/img/logo01.png" /></a>
+                    <a href="#top" aria-label="top" rel="m_PageScroll2id" aria-label="Top"><img alt="logo" src="../src/img/logo01.png" /></a>
                 </div>
             </div>
             <div class="header__nav desktop-nav animate__animated animate__bounceIn">
@@ -56,16 +56,16 @@
                 <a class="header__nav-item" href="#contacts" aria-label="contacts" rel="m_PageScroll2id">Контакты</a>
             </div>
             <div class="header__contacts animate__animated animate__fadeInLeft">
-                <p>Москва <br /> <a href="tel:+79959029016" class="tel">+7 995 902 90 16</a></p>
-                <p>Санкт-Петербург <br /> <a href="tel:+79312622345" class="tel">+7 931 262-23-45</a></p>
+                <p>Москва <br /> <a href="tel:+79959029016" class="tel" aria-label="Tel">+7 995 902 90 16</a></p>
+                <p>Санкт-Петербург <br /> <a href="tel:+79312622345" class="tel" aria-label="Tel">+7 931 262-23-45</a></p>
             </div>
             <div class="nav-toggle">
                 <div class="nav-toggle-bar"></div>
             </div>
             <nav class="nav">
                 <div class="header__contacts-itemmobile">
-                    <p>Москва <br /> <a href="tel:+79959029016" class="tel">+7 995 902 90 16</a></p>
-                    <p>Санкт-Петербург <br /> <a href="tel:+79312622345" class="tel">+7 931 262-23-45</a></p>
+                    <p>Москва <br /> <a href="tel:+79959029016" class="tel" aria-label="Tel">+7 995 902 90 16</a></p>
+                    <p>Санкт-Петербург <br /> <a href="tel:+79312622345" class="tel" aria-label="Tel">+7 931 262-23-45</a></p>
                 </div>
 
                 <ul>
@@ -106,7 +106,7 @@
                         рыб) и проведут инструктаж по уходу за обитателями Вашего прекрасного аквариума.</h2>
                 </div>
                 <div class="about__subwrapper-img">
-                    <img src="../src/img/test21.png" width="280px" height="225px" />
+                    <img src="../src/img/test21.png" width="280px" height="230px" />
                 </div>
             </div>
             <div><button class="about__button" data-toggle="modal" data-target="#smallModal">
@@ -476,34 +476,6 @@
                     <h3></h3>
                 </div>
             </div>
-            <!-- <div class="container gallery__img-wrapper">
-                <div class="box wow animate__animated animate__flipInY">
-                    <img alt="galleryimg" src="../src/img/111.png">
-                </div>
-                <div class="box wow animate__animated animate__flipInY">
-                    <img alt="galleryimg" src="../src/img/222.png">
-                </div>
-                <div class="box wow animate__animated animate__flipInY">
-                    <img alt="galleryimg" src="../src/img/333.png">
-                </div>
-                <div class="box wow animate__animated animate__flipInY">
-                    <img alt="galleryimg" src="../src/img/444.png">
-                </div>
-            </div>
-            <div class="container gallery__img-wrapper">
-                <div class="box wow animate__animated animate__flipInY">
-                    <img alt="galleryimg" src="../src/img/555.png">
-                </div>
-                <div class="box wow animate__animated animate__flipInY">
-                    <img alt="galleryimg" src="../src/img/666.png">
-                </div>
-                <div class="box wow animate__animated animate__flipInY">
-                    <img alt="galleryimg" src="../src/img/222.png">
-                </div>
-                <div class="box wow animate__animated animate__flipInY">
-                    <img alt="galleryimg" src="../src/img/555.png">
-                </div>
-            </div> -->
         </section>
 
         <section class="contacts" id="contacts">
@@ -515,20 +487,20 @@
                 <div class="contacts__tel wow animate__animated animate__fadeInDown">
                     <span>Телефон:</span>
                     <br /><br />
-                    <span class="highlightedtext"> <a href="tel:+79959029016" class="contacts_tel_number">+7 995 902 90
+                    <span class="highlightedtext"> <a href="tel:+79959029016" class="contacts_tel_number" aria-label="Tel">+7 995 902 90
                             16</a></span>
                     <br /><br />
-                    <span class="highlightedtext"><a href="tel:+79312622345" class="contacts_tel_number">+7 931
+                    <span class="highlightedtext"><a href="tel:+79312622345" class="contacts_tel_number" aria-label="Tel">+7 931
                             262-23-45</a></span>
                 </div>
                 <div class="contacts__email wow animate__animated animate__fadeInDown">
                     <span>e-Mail:</span>
                     <br /><br />
-                    <span><a class="email-link" href="mailto:msk@aquaroom.ru" rel="noopener">msk@aquaroom.ru </a><span
+                    <span><a class="email-link" href="mailto:msk@aquaroom.ru" rel="noopener" aria-label="mail">msk@aquaroom.ru </a><span
                             class="highlighted">Москва</span></span>
                     <br />
                     <br />
-                    <span><a class="email-link" href="mailto:spb@aquaroom.ru" rel="noopener"> spb@aquaroom.ru </a><span
+                    <span><a class="email-link" href="mailto:spb@aquaroom.ru" rel="noopener" aria-label="mail"> spb@aquaroom.ru </a><span
                             class="highlighted">Санкт-Петербург</span></span>
                 </div>
             </div>
@@ -556,7 +528,7 @@
                     <div class="modal__private-policy">
                         <div class="terms">
                             <input type="checkbox" checked onchange="document.getElementById('sendNew').disabled = !this.checked;" />
-                            <a class="private-policy" href="src\policy\Политика конфиденциальности.docx"><span
+                            <a class="private-policy" href="src\policy\Политика конфиденциальности.docx" aria-label="private policy"><span
                                     class="highlightedtext">Я согласен (-на) на обработку моих персональных
                                     данных</span></a>
                         </div>
@@ -608,7 +580,7 @@
             </ul>
         </div>
     </div>
-    <a class="top-link hide" href="" id="js-top">
+    <a class="top-link hide" href="" id="js-top" aria-label="Totopbtn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
             <path d="M12 6H0l6-6z" />
         </svg>
@@ -617,7 +589,7 @@
     <!--FOOTER ENDS-->
     <!-- WhatAppBtn -->
     <div class="main__social-wrapper">
-        <a href="https://wa.me/+79959029016" rel="noopener" target="_blank"><img src="../src/img/Whatsapp.png" alt="" Width="100px" height="100px"></a>
+        <a href="https://wa.me/+79959029016" rel="noopener" target="_blank" aria-label="Whatsapp"><img src="../src/img/Whatsapp.png" alt="" Width="100px" height="100px"></a>
     </div>
     <!-- MODAL-->
     <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
@@ -657,7 +629,7 @@
                         <div class="modal__private-policy">
                             <div class="terms">
                                 <input type="checkbox" checked onchange="document.getElementById('form-btn-id').disabled = !this.checked;" />
-                                <a class="private-policy" href="src\policy\Политика конфиденциальности.docx"><span
+                                <a class="private-policy" href="src\policy\Политика конфиденциальности.docx" aria-label="private policy"><span
                                         class="highlightedtext">Я согласен (-на) на обработку моих персональных
                                         данных</span></a>
                             </div>
@@ -665,8 +637,8 @@
                 </div>
                 </form>
                 <div class="modal__contacts-item">
-                    <p>Москва <br /> <a href="tel:+79959029016" class="tel">+7 995 902 90 16</a></p>
-                    <p>Санкт-Петербург <br /> <a href="tel:+79312622345" class="tel">+7 931 262-23-45</a></p>
+                    <p>Москва <br /> <a href="tel:+79959029016" class="tel" aria-label="Tel">+7 995 902 90 16</a></p>
+                    <p>Санкт-Петербург <br /> <a href="tel:+79312622345" class="tel" aria-label="Tel">+7 931 262-23-45</a></p>
                 </div>
             </div>
         </div>
