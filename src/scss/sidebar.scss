@@ -10,7 +10,7 @@
 
 .sidebar-title {
     position: fixed;
-    top: 30%;
+    top: 50%;
     font-size: 36px;
     display: flex;
     flex-direction: column;
@@ -58,12 +58,12 @@
     position: fixed;
     display: block;
     left: 30px;
-    top: 5%;
+    top: 25%;
     border-radius: 25px;
     width: 70px;
-    height: 90vh;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.3) 100%);
-    box-shadow: 0 3px 2.3px rgba(0, 0, 0, 0.019), 0 6.5px 5.4px rgba(0, 0, 0, 0.029), 0 10.9px 9.9px rgba(0, 0, 0, 0.034), 0 17.5px 17.5px rgba(0, 0, 0, 0.036), 0 30.3px 32.6px rgba(0, 0, 0, 0.041), 0 74px 80px rgba(0, 0, 0, 0.07);
+    height: 50vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+    // box-shadow: 0 3px 2.3px rgba(0, 0, 0, 0.019), 0 6.5px 5.4px rgba(0, 0, 0, 0.029), 0 10.9px 9.9px rgba(0, 0, 0, 0.034), 0 17.5px 17.5px rgba(0, 0, 0, 0.036), 0 30.3px 32.6px rgba(0, 0, 0, 0.041), 0 74px 80px rgba(0, 0, 0, 0.07);
     &:hover {
         cursor: pointer;
     }
