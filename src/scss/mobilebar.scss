@@ -41,3 +41,22 @@
         }
     }
 }
+
+@media (min-width: 320px) and (max-width: 414px) {
+    .mobile__menu-wrapper {
+        & ul {
+            & li {
+                display: flex;
+                flex-direction: column;
+                & img {
+                    display: flex;
+                    align-items: center;
+                    margin: 0 auto;
+                }
+                & span {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

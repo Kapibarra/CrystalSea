@@ -79,18 +79,18 @@ function stickyMenuToggle() {
 }
 window.addEventListener("scroll", stickyMenuToggle);
 // mobile bottom menu trigger
-function stickyMenuToggle() {
-  const stickyMenu = document.querySelector(".sidebar-menu")
-  const yPos = window.scrollY;
-  if (yPos > 80) {
-    stickyMenu.classList.add("sidevisible")
-    stickyMenu.classList.remove("sideunvisible")
-  } else {
-    stickyMenu.classList.remove("sidevisible")
-    stickyMenu.classList.add("sideunvisible")
-  }
-}
-window.addEventListener("scroll", stickyMenuToggle);
+// function stickyMenuToggle() {
+//   const stickyMenu = document.querySelector(".sidebar-menu")
+//   const yPos = window.scrollY;
+//   if (yPos > 80) {
+//     stickyMenu.classList.add("sidevisible")
+//     stickyMenu.classList.remove("sideunvisible")
+//   } else {
+//     stickyMenu.classList.remove("sidevisible")
+//     stickyMenu.classList.add("sideunvisible")
+//   }
+// }
+// window.addEventListener("scroll", stickyMenuToggle);
 
 // date year
 document.getElementById("year").innerHTML = new Date().getFullYear();
