@@ -66,3 +66,10 @@
         clip: auto !important;
     }
 }
+
+@media (max-width: 414px) {
+    .top-link {
+        bottom: 75px;
+        right: -25px;
+    }
+}

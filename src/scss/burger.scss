@@ -142,8 +142,11 @@
         transform: rotate(-45deg);
     }
     
-    @media screen and (max-width: 410px) {
+    @media screen and (max-width: 414px) {
         .nav.expanded {
-            right: -64px;
+            right: 0px;
+        }
+        .nav-toggle {
+            top: 48px !important;
         }
     }
