@@ -99,7 +99,7 @@
         transition: all 0.5s;
     }
     &:hover img {
-        filter: brightness(1.1);
+        filter: brightness(1.2);
         cursor: pointer;
         transition: all 0.5s;
     }
@@ -182,7 +182,7 @@
     }
     .main__social-wrapper {
         bottom: 180px;
-        right: 0px;
+        right: 3px;
     }
 }
 
