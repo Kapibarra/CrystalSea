@@ -4,7 +4,7 @@
         -ms-transition: right 0.5s ease;
         -o-transition: right 0.5s ease;
         transition: right 0.5s ease;
-        background: $highlight;
+        background: #fff;
         color: #fffefb;
         cursor: pointer;
         font-size: 2rem;
@@ -15,7 +15,7 @@
         top: 0;
         width: 20rem;
         z-index: 1;
-        opacity: 0.91;
+        opacity: 0.6;
     }
     
     .header__contacts-itemmobile {
@@ -52,11 +52,11 @@
     
     .nav.expanded {
         right: 0;
-        opacity: 0.97 !important;
+        opacity: 0.92 !important;
     }
     
     .expanded {
-        opacity: 0.97 !important;
+        opacity: 0.92 !important;
     }
     
     .nav ul {
@@ -126,7 +126,7 @@
     
     .nav-toggle.expanded .nav-toggle-bar::after,
     .nav-toggle.expanded .nav-toggle-bar::before {
-        background: $black;
+        background: $highlight;
         margin-top: 0;
     }
     

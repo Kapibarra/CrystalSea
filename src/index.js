@@ -79,18 +79,19 @@ function stickyMenuToggle() {
 }
 window.addEventListener("scroll", stickyMenuToggle);
 // mobile bottom menu trigger
-// function stickyMenuToggle() {
-//   const stickyMenu = document.querySelector(".sidebar-menu")
-//   const yPos = window.scrollY;
-//   if (yPos > 80) {
-//     stickyMenu.classList.add("sidevisible")
-//     stickyMenu.classList.remove("sideunvisible")
-//   } else {
-//     stickyMenu.classList.remove("sidevisible")
-//     stickyMenu.classList.add("sideunvisible")
-//   }
-// }
-// window.addEventListener("scroll", stickyMenuToggle);
+function stickyMobileMenuToggle() {
+  const stickyMobileMenu = document.querySelector(".mobile__menu-wrapper")
+  const yPos = window.scrollY;
+  if (yPos > 80) {
+    stickyMobileMenu.classList.add("sidevisible")
+    stickyMobileMenu.classList.remove("sideunvisible")
+  } else {
+    stickyMobileMenu.classList.remove("sidevisible")
+    stickyMobileMenu.classList.add("sideunvisible")
+  }
+}
+window.addEventListener("scroll", stickyMobileMenuToggle 
+  );
 
 // date year
 document.getElementById("year").innerHTML = new Date().getFullYear();
