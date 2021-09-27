@@ -19,6 +19,10 @@
     align-items: center;
     margin-top: 45px;
     margin-bottom: 20px;
+    & a {
+        text-decoration: none;
+        color: rgb(44, 44, 44);
+    }
 }
 
 @media screen and (max-width: 414px) {
