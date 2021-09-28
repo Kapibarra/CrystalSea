@@ -25,6 +25,27 @@
     }
 }
 
+@media screen and (max-width: 428px) {
+    .footer {
+        display: block;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .footer__logo {
+        width: 220px;
+        margin: 0 auto;
+        & img {
+            width: 220px;
+            height: 40px;
+        }
+    }
+    .copyright {
+        display: block;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .footer {
         display: block;

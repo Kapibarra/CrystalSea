@@ -172,13 +172,34 @@
     }
 }
 
+@media screen and (max-width: 428px) {
+    .page {
+        margin-top: 0 !important;
+    }
+    .main__title {
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .main__image {
+        margin-top: 40px;
+        width: 380px;
+    }
+    .main__social-wrapper {
+        bottom: 180px;
+        right: 3px;
+    }
+    .circle1 {
+        top: 50% !important;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .page {
         margin-top: 0 !important;
     }
     .main__title {
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 36px;
+        line-height: 30px;
     }
     .main__image {
         margin-top: 40px;
