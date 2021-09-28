@@ -363,6 +363,15 @@ label:after {
     .service__title {
         font-size: 36px;
     }
+    .service__toggle-title {
+        padding-top: 10px;
+        width: 100px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .service__toggle-wrapper {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 375px) {
