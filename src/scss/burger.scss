@@ -78,7 +78,7 @@
         height: 50px;
         right: 50px;
         position: fixed;
-        top: 90px;
+        top: 60px;
         width: 50px;
         z-index: 2;
         display: none;
@@ -142,11 +142,23 @@
         transform: rotate(-45deg);
     }
     
+    @media screen and (max-width: 428px) {
+        .nav-toggle {
+            top: 48px !important;
+        }
+    }
+    
     @media screen and (max-width: 414px) {
         .nav.expanded {
             right: 0px;
         }
         .nav-toggle {
             top: 48px !important;
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        .nav-toggle {
+            right: 15px;
         }
     }
