@@ -529,8 +529,8 @@
                             spb@aquaroom.ru </a><span class="highlighted">Санкт-Петербург</span></span>
                 </div>
             </div>
-            <form method="POST" action="">
-                <div class="form wow animate__animated animate__fadeInDown">
+            <form class="a-ajax-form">
+                <div class="form wow animate__animated animate__fadeInDown ">
                     <input type="name" class="form-field" placeholder="Ваше имя">
                     <input type="email" id="emailadress" class="form-field" placeholder="Ваш E-Mail">
                     <input type="tel" id="phonenum" class="form-field" placeholder="+7 (999) 999-99-99">
@@ -649,8 +649,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
-
+                    <form class="a-ajax-form">
                         <div class="modal__img">
                         </div>
                         <input type="name" class="form-field modal-form-input" placeholder="Ваше имя">
@@ -695,22 +694,7 @@
         new WOW().init();
     </script>
     <script type="text/javascript" src="../src/js/vanilla-tilt.js"></script>
-    <script type="text/javascript">
-        VanillaTilt.init(document.getElementById("vantatest"), {
-            max: 15,
-            speed: 500,
-            scale: 1.1,
-            glare: true,
-            "max-glare": 0.8,
-        });
-    </script>
-    <script type="text/javascript">
-        VanillaTilt.init(document.getElementById("vantatest2"), {
-            max: 15,
-            speed: 700,
-            scale: 1.05,
-        });
-    </script>
+    <script src="js/jquery.validate.min.js"></script>
     <script type="text/javascript">
         if (window.screen.width >= 720) {
             VanillaTilt.init(document.querySelectorAll("button"), {

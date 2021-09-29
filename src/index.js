@@ -146,3 +146,32 @@ function slidesPlugin(activeSlide = 0) {
   }
 }
 slidesPlugin(2)
+
+	// Send Form
+	if ($('.a-ajax-form').length) {
+		$('.a-ajax-form').each(function () {
+			var thisForm = $(this);
+			var succMessage = thisForm.find('.success-message');
+			var errMessage = thisForm.find('.error-message');
+			thisForm.validate({
+				errorClass: 'error',
+				submitHandler: function (form) {
+					$.ajax({
+						type: 'POST',
+						url: 'handler.php',
+						data: new FormData(form),
+						cache: false,
+						contentType: false, // Not to set any content header
+						processData: false, // Not to process data
+						success: function () {
+							succMessage.show();
+						},
+						error: function () {
+							errMessage.show();
+						}
+					});
+
+				}
+			});
+		});
+	}
