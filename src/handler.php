@@ -17,7 +17,8 @@ try {
 	$mail_from_email = isset( $_POST['email'] ) ? $_POST['email'] : '';
 	$mail_from_name = isset( $_POST['name'] ) ? $_POST['name'] : '';
 	$mail_category = isset( $_POST['category'] ) ? $_POST['category'] : '';
-	$mail_message = isset( $_POST['message'] ) ? $_POST['message'] : '';
+	$mail_city = isset( $_POST['city'] ) ? $_POST['city'] : '';
+	$mail_phone = isset( $_POST['phone'] ) ? $_POST['phone'] : '';
 
 	// Server settings
 	$mail->isSMTP(); // Send using SMTP
@@ -40,10 +41,11 @@ try {
 
 	$mail->Subject = $mail_subject;
 	$mail->Body = '
+	<strong>City:</strong> ' . $mail_city . '<br>
 		<strong>Category:</strong> ' . $mail_category . '<br>
 		<strong>Name:</strong> ' . $mail_from_name . '<br>
 		<strong>Email:</strong> ' . $mail_from_email . '<br>
-		<strong>Message:</strong> ' . $mail_message;
+		<strong>Phone:</strong> ' . $mail_phone;
 	$mail->Send();
 
 	echo 'Message has been sent';
