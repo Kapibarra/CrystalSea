@@ -105,6 +105,10 @@
     }
 }
 
+.mobile_main__image {
+    display: none;
+}
+
 .main__title {
     width: 100%;
     max-width: 800px;
@@ -181,15 +185,19 @@
         line-height: 30px;
     }
     .main__image {
-        margin-top: 40px;
-        width: 380px;
+        display: none;
+    }
+    .mobile_main__image {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
     }
     .main__social-wrapper {
         bottom: 180px;
         right: 3px;
     }
     .circle1 {
-        top: 50% !important;
+        top: -23% !important;
     }
 }
 
@@ -208,9 +216,6 @@
     .main__social-wrapper {
         bottom: 180px;
         right: 3px;
-    }
-    .circle1 {
-        top: 50% !important;
     }
 }
 
