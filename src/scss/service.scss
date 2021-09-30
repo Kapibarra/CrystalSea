@@ -351,6 +351,13 @@ label:after {
     }
 }
 
+@media screen and (max-width: 428px) {
+    .service__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
 @media screen and (max-width: 414px) {
     #text1 {
         padding-left: 10px;

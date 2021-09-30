@@ -33,3 +33,14 @@
     max-width: 280px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 428px) {
+    .brand__img {
+        width: 100%;
+        max-width: 100px;
+        margin: 0 auto;
+    }
+    .brands {
+        margin-bottom: 20px;
+    }
+}
