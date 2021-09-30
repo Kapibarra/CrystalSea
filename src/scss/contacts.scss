@@ -149,10 +149,13 @@ select {
 .email-link {
     color: #000;
     margin-right: 5px;
-    margin-left: 5px;
     &:hover {
         color: #282828;
     }
+}
+
+.contacts__email span span {
+    margin-right: 5px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -186,13 +189,16 @@ select {
     .contacts__tel {
         margin-bottom: 20px;
     }
+    .contacts__email span {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 414px) {
     .form {
         width: 320px;
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 30px;
         & select {
             margin: 0 auto;
         }
