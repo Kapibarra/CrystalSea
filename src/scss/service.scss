@@ -5,8 +5,9 @@
     margin-bottom: 100px;
     & {
         li.active {
-            border: 1px solid #ccc;
-            border-bottom: none;
+            border-bottom: 1px solid #7670D2;
+            transition: all 0.3s ease-in-out;
+            color: #7670D2;
         }
         .content {
             display: none;
@@ -47,14 +48,26 @@
         ul {
             margin-bottom: 10px;
             padding: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         li {
             list-style: none;
             display: inline-block;
-            width: fit-content;
+            width: 100%;
+            max-width: 325px;
             margin-right: -4px;
             text-align: center;
+            box-sizing: border-box;
+            padding: 5px 10px;
+            margin: 5px;
             border-bottom: 1px solid #ccc;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }
