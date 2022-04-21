@@ -435,6 +435,12 @@ label:after {
     }
 }
 
+@media screen and (max-width: 1080px) {
+    .content {
+        justify-content: center !important;
+    }
+}
+
 @media screen and (max-width: 768px) {
     label {
         display: block;
