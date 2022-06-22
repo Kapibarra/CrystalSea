@@ -121,9 +121,7 @@
             margin-right: -4px;
             text-align: center;
             box-sizing: border-box;
-            padding: 5px 10px;
-            margin: 5px;
-            border-bottom: 1px solid #ccc;
+            padding: 5px 5px;
             transition: all 0.3s ease-in-out;
             &:hover {
                 cursor: pointer;
@@ -196,7 +194,7 @@
 }
 
 .highlighted {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
     font-family: 'Montserrat', cursive;
     color: $highlight;
@@ -302,7 +300,8 @@ label:after {
 
 .service__card {
     box-sizing: border-box;
-    width: 320px;
+    width: 100%;
+    max-width: 375px;
     margin: 30px;
     padding: 5px;
     padding-top: 10px;
@@ -312,7 +311,7 @@ label:after {
     & h2 {
         width: 200px;
         margin: 0 auto;
-        font-size: $subtitle;
+        font-size: 18px;
         line-height: 32px;
         font-weight: 300;
         text-align: center;
@@ -323,16 +322,15 @@ label:after {
         text-align: center;
         padding: 0;
         & li {
-            font-size: $text;
+            font-size: 14px;
             line-height: 32px;
             font-weight: 500;
         }
     }
     & p {
-        width: 200px;
         margin: 0 auto;
         text-align: center;
-        font-size: $smalltext;
+        font-size: 14px;
         line-height: 24px;
         font-weight: 300;
     }
@@ -356,7 +354,7 @@ label:after {
     border: 0;
     background: linear-gradient(to right, $highlight 0%, $tocolor 100%);
     border-radius: 3px;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 10px;
     color: #fff;
     font-size: $text;
